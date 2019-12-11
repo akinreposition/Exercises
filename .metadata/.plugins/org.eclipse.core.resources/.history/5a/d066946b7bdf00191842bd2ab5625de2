@@ -1,0 +1,29 @@
+// Pseudo code
+
+// 1. prompt user for number between 0-6;
+// 2. save and collect step1
+// 3. Assign a day for the week to the numbers starting from zero to 6;
+// 4. if the number input is greater than 6, add the number to 6,
+// 5. save the number and display the day entered and the new day and week.
+import java.util.Scanner;
+public class DaysOfWeek {
+		int day;
+		int week;
+		public void week() {
+			Scanner collect = new Scanner(System.in);
+			
+			System.out.println("Enter a number between 0 - 6: ");
+			day = collect.nextInt();			
+			
+			if(day>6) {
+				
+				day= day /6;
+				System.out.printf("%d", day);
+				
+				System.out.printf("%d", week);
+				week = day%6;
+				
+			}
+		}
+
+}

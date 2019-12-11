@@ -1,0 +1,11 @@
+
+public class PrincipalAmountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PrincipalAmount obj = new PrincipalAmount();
+		obj.loan();
+		
+	}
+
+}

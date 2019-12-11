@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class SelfPratice {
+	private int milesDriven;
+	private int gallonUsed;
+	private int totalmiles;
+	private int total;
+	
+	Scanner c
+	System.out.print("Enter milesDriven: ");
+	
+	
+}

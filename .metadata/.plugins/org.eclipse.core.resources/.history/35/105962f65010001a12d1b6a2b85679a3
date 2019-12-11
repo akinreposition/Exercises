@@ -1,0 +1,20 @@
+
+public class CreditLimitCalculatorTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		CreditLimitCalculator CreditLimit = new CreditLimitCalculator();
+//		CreditLimit.CreditLimitCalculator();
+
+		byte counter = 1;
+		while (counter >= 10) {
+			System.out.printf(" %d", counter);
+			++counter;
+			
+			System.out.println();
+		}
+		
+	}
+
+
+}

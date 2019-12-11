@@ -1,0 +1,59 @@
+import java.util.Scanner;
+
+public class GasMileage1 {
+
+	Scanner collect = new Scanner(System.in);
+	
+	private int mileDriven=1;
+	private int gallonUsed=1;
+	private double milePerGallon;
+	private double total; 
+	private double average;
+	private int counter;
+	
+	
+	public  void setmileDriven() {
+		
+		System.out.println("Enter Miles Driven: ");
+		this.mileDriven =  collect.nextInt();;
+	}
+	
+	public void setgallonUsed() {
+		
+		System.out.println("Enter Gallons Used: ");
+		this.gallonUsed = collect.nextInt();
+	}
+	
+	public void calculatemilePerGallon() {
+		milePerGallon = (double)mileDriven / gallonUsed;
+		System.out.printf ("Miles Driven:%.2f%n",milePerGallon);
+		
+		total = total + milePerGallon;
+		counter++;
+		
+		average = total/counter;
+	}
+	public void startProgram() {
+		setmileDriven();
+		while(mileDriven !=0 || gallonUsed !=0)
+		 {
+		
+		setgallonUsed();
+		calculatemilePerGallon();
+		setmileDriven();
+		}
+		
+		
+		
+
+		System.out.printf("%n Average Mile Per Gallon:%.2f%n",average);
+	}
+	
+//	setmileDriven();
+//	setmiledriven(10);
+//	System.out.prinln("Enter Miles");
+//	int miles = collect.nextInt();
+//	setmileDriven(miles);
+
+	
+}

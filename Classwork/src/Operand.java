@@ -1,0 +1,61 @@
+// prompt for first operands.
+// collect and save the first operands.
+// prompt for second operands.
+// collect and save the second operands.
+// prompt for Operator.
+// collect and save the operator
+//solve for 2,4,6 using any of the operations +, -, *, /, save from the input
+// 
+// Display the result.
+
+import java.util.Scanner;
+public class Operand {
+			 int num1;
+			 int num2;
+			 double result;	
+	Scanner collect = new Scanner(System.in);
+	
+	public double calculate() {
+		 	
+		
+		 System.out.println("First Operand: ");
+		 num1 = collect.nextInt();
+		
+		 System.out.println("Second Operand: ");
+		 num2 = collect.nextInt();
+		 
+		 System.out.println("Enter Operator: ");
+		 char operator = collect.next().charAt(0);
+		
+		switch (operator) {
+		case '+':
+			
+			result=	num1 + num2;
+			break;
+		
+		case '-':
+		
+			if(num1>num2) {
+				System.out.println("No lesser Numbers.");
+			result = num1 -num2;
+			}
+			break;
+		
+		case '*':
+			result = num1 * num2;
+			break;
+		
+		case '/':
+			result = num1 / num2;
+			break;
+			
+		
+		}
+		System.out.printf("%.0f",  result);
+		return result;
+		
+		
+			
+		
+	}
+}

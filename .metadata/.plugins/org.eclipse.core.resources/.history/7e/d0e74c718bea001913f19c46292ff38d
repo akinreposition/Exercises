@@ -1,0 +1,24 @@
+package craps;
+import java.security.SecureRandom;
+public class DiceGameCraps {
+	public static void main(String[]  args) {
+
+	int dice1 = 0;
+	int dice2 = 0;
+	int sum;
+	SecureRandom randomNumber = new SecureRandom();
+	
+	
+	for(int d1= 1; d1 <= 6; d1++) {
+		int firstThrowDice1 =  randomNumber.nextInt(6);
+		for(int d2= 1; dice2 <= 6; dice2++) {
+			int firstThrowDice2 =randomNumber.nextInt(6);
+			 sum = firstThrowDice1 + firstThrowDice2;
+			 
+			 System.out.printf("%s%n First Throw %f%n ", sum);
+		}
+
+	}
+	
+	}
+}

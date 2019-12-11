@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class CompoundInterest {
+	private double amount;
+	
+	
+	
+	public double Interest() {
+	Scanner collect = new Scanner(System.in);
+		System.out.println("Enter Amount: ");
+		double principal = collect.nextDouble();
+		
+		System.out.println("Enter Number of Years: ");
+		int year = collect.nextInt();
+	
+	 double rate = 0.05;
+		for(int i = 1; i <= year; i++) {
+			amount = principal * (1 + rate);
+			principal = amount;
+		}
+		return principal;
+	}
+	
+	
+}
