@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.security.SecureRandom"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
@@ -8,4 +7,5 @@
 <fullyQualifiedTypeName name="assignment9.Points"/>
 <fullyQualifiedTypeName name="assignment9.Rectangle"/>
 <fullyQualifiedTypeName name="assignment9.Square"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

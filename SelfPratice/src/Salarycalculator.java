@@ -46,8 +46,8 @@ public class Salarycalculator {
 	
 	public int calculateGrossPay() {
 		System.out.println("Enter Employee Name: ");
-		employeeName = collect.nextLine();
-		employeeName.toUpperCase();
+		employeeName = collect.nextLine().toUpperCase();
+	
 		
 		System.out.println("Enter Hours worked: ");
 		int userHours = collect.nextInt();
