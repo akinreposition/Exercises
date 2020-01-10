@@ -50,7 +50,6 @@ public class LargestNumber {
 			System.out.print("Enter Amount of Amala sold: ");
 			setNumber(collect.nextInt());
 			
-			//number = collect.nextInt();
 			
 			if(number > 100) {
 				System.out.println("Please Re-Enter Amount of Amala sold!!! ");
